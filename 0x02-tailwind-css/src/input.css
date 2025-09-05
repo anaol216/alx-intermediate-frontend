@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media (max-width: 768px) {
+  /* Custom styles for screens 768px and larger */
+    main{
+        grid-template-columns: 1fr;
+    }
+}
