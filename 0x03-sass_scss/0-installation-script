@@ -1,0 +1,17 @@
+# Steps to set up Sass/SCSS
+
+1. Install Node.js from https://nodejs.org/
+
+2. Open your terminal and run:
+    npm install sass -v 3.7.4
+
+3. Verify installation:
+    sass --version
+
+4. To compile SCSS to CSS, use:
+    sass input.scss output.css
+
+5. For automatic compilation on file changes:
+    sass --watch input.scss:output.css
+
+# You can now write SCSS files and compile them to CSS!
